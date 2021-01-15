@@ -1,0 +1,113 @@
+
+.header{
+	padding:30px 0 0 30px;
+	background-color: #eeeff1;
+}
+
+svg{
+	width:1em;
+	height: 1em;
+}
+
+.box{
+	padding:105px 0;
+}
+
+.box1, .box2, .box3{
+	background-color: #eeeff1;
+}
+
+.box3, .footer{
+	background-color: #408DD2;
+}
+
+.box6{
+	padding:15px 0;
+}
+
+.box__video{
+	width:80%;
+}
+
+.main-button{
+	padding:15px 35px;
+	color:#fff;
+	background-color: #408DD2;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+.main-button:focus{
+	box-shadow: none;
+	outline:0;
+}
+
+.main-button:hover{
+	color:#fff;
+	background-color: #1c3049;
+	box-shadow: none;
+}
+
+.navbar-toggler{
+	font-size: 30px;
+}
+
+.navbar-toggler:focus{
+	box-shadow:none;
+	outline:0;
+}
+
+.nav-link{
+	padding:15px 25px;
+	color:#5a5a5a;
+	text-transform: uppercase;
+}
+
+.nav-link:hover{
+	color:#34547a;
+}
+
+.text-short, #send-form{
+	width: 50%;
+	min-width: 250px;
+}
+
+.progress--skill{
+	height:5px;
+}
+
+.progress--skill .progress-bar{
+	background-color: #408DD2;
+}
+
+.work-item{
+	position: relative;
+	width:25%;
+}
+
+
+.form-control{
+	border:2;
+	border-radius: 10px;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+.footer__social-item{
+	margin-left: 15px;
+	font-size: 25px;
+	color:#fff;
+	text-decoration: none;
+}
+
+.footer__social-item:hover{
+	color:#eee;
+}
+
+@media (max-width:767px) {
+	.work-item{
+		width: 50%;
+	}
+}
